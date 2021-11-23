@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- --------- -->
+
+        <header>
+
+            <div id="page-top">
+                <h1 class="title">Shopaholic</h1>
+                <p>My shopping list</p>
+                <!-- search and show/hide functionality -->
+               <form id="search-item">
+                   <input type="text" placeholder="Search items...">
+                  
+            <!-- checkbox -->
+                   <div id="check">
+                       <label for="hide">Hide list</label>
+                       <input type="checkbox" id="hide">
+                    </div>
+                    <!-- <br> -->
+               </form>
+            </div>
+
+        </header>
+
+        <!-- --------- -->
+
+        <form id="add-item">
+            <input type="text" placeholder="What do you want to buy?">
+            <button>Add</button>
+        </form>
+
+        <!-- --------- -->
+
+        <div id="grocery-list">
+            <h2 class="title">Items To Buy</h2>
+            <ul>
+                <li>
+                    <span class="item">Milk</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="item">Suger & Spice</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="item">Something to drink (e.g. coke)</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="item">Pizza (pref margarita) </span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <!-- ----------- -->
+        <footer>
+        
+        <button class="bottom_btn"> Food Joke </button>
+        <button class="bottom_btn"> Did you know </button>
+        
+        </footer>
+
+        <div id="hidden">
+        
+            <div class="btn_content1">
+                <p>아몬드가 죽으면, 뭐라고 부를까요??</p>
+                <button>Answer</button>
+            </div>
+        
+            <div class="btn_content2">
+                <p>이번 미니 프로젝트를 진행하면서 느낀점</p>
+                <p> DOM과 event에 대해서 더 잘 알게 되었고, 자신감이 생겼다.</p>
+            </div>
+        </div>
+
+    </div>    
+
+    <script defer src="app.js"></script>
+    <!-- <script src="app1.js"></script> -->
+    <script>
+       
+
+
+       
+    </script>
+   
+</body>
+
+</html>
