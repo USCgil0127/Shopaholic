@@ -1,4 +1,4 @@
-# Shopaholic
+# Sprint Shopaholic
 - hover 기능
 ![](https://images.velog.io/images/gil0127/post/dbed9673-225a-44dc-8e36-0c3389a477d9/p1.gif)
 
